@@ -34,7 +34,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
     Weather('Pune', '18.5204', '73.8567', 'Asia%2FKolkata'),
     Weather('Thiruvananthapuram', '8.5241', '76.9366', 'Asia%2FKolkata'),
     Weather('Chandigarh', '30.7333', '76.7794', 'Asia%2FKolkata'),
-    Weather('New York', '40.7128', '74.0060', 'America%2FNew_york'),
+    Weather('New York', '40.752655', '-73.935242', 'America%2FNew_york'),
     Weather('Chicago', '41.8781', '87.6298', 'America%2FChicago'),
     Weather('London', '51.5072', '0.1276', 'Europe%2FLondon'),
     Weather('Berlin', '52.5200', '13.4050', 'Europe%2FBerlin'),
