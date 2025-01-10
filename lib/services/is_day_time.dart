@@ -18,7 +18,7 @@ class WorldTime {
       String datetime = data['dateTime'];
       DateTime now = DateTime.parse(datetime);
       DateTime dt=DateTime.now();
-      for(int i=0;i<7;i++) {
+      for(int i=0;i<10;i++) {
         DateTime futuredate=dt.add(Duration(days: i+1));
         name.add(DateFormat('EEE').format(futuredate));
       }

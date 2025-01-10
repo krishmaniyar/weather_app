@@ -51,7 +51,7 @@ class _HomeState extends State<Home> {
     Color? iconColor = Colors.white;
     Color? boxfont = Colors.white;
     Color? contColor = Colors.black38;
-    double fontsize = 28.0;
+    double fontsize = 30.0;
     double fsize = 22.0;
     double infosize = 35.0;
     String font = 'RobotoMono';
@@ -580,7 +580,7 @@ class _HomeState extends State<Home> {
                                           width: 8.0,
                                         ),
                                         Text(
-                                          '7-DAY FORECAST',
+                                          '10-DAY FORECAST',
                                           style: TextStyle(
                                             fontSize: fsize,
                                             color: boxfont,
@@ -598,7 +598,7 @@ class _HomeState extends State<Home> {
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          'Today    ',
+                                          'Today  ',
                                           style: TextStyle(
                                             fontSize: 20.0,
                                             fontFamily: font,
@@ -639,7 +639,7 @@ class _HomeState extends State<Home> {
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          '${name[1]}      ',
+                                          '${name[0]}    ',
                                           style: TextStyle(
                                             fontSize: 20.0,
                                             fontFamily: font,
@@ -680,7 +680,7 @@ class _HomeState extends State<Home> {
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          '${name[2]}      ',
+                                          '${name[1]}    ',
                                           style: TextStyle(
                                             fontSize: 20.0,
                                             fontFamily: font,
@@ -721,7 +721,7 @@ class _HomeState extends State<Home> {
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          '${name[3]}      ',
+                                          '${name[2]}    ',
                                           style: TextStyle(
                                             fontSize: 20.0,
                                             fontFamily: font,
@@ -762,7 +762,7 @@ class _HomeState extends State<Home> {
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          '${name[4]}      ',
+                                          '${name[3]}    ',
                                           style: TextStyle(
                                             fontSize: 20.0,
                                             fontFamily: font,
@@ -803,7 +803,7 @@ class _HomeState extends State<Home> {
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          '${name[5]}      ',
+                                          '${name[4]}    ',
                                           style: TextStyle(
                                             fontSize: 20.0,
                                             fontFamily: font,
@@ -844,7 +844,7 @@ class _HomeState extends State<Home> {
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          '${name[6]}      ',
+                                          '${name[5]}    ',
                                           style: TextStyle(
                                             fontSize: 20.0,
                                             fontFamily: font,
@@ -874,6 +874,130 @@ class _HomeState extends State<Home> {
                                         ),
                                       ],
                                     ),
+                                    Divider(
+                                      height: 20,
+                                      thickness: 1,
+                                      indent: 0,
+                                      endIndent: 0,
+                                      color: fontColor,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          '${name[6]}    ',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                        Icon(
+                                          getIcon(7),
+                                          size: 18.0,
+                                          color: iconColor,
+                                        ),
+                                        Text(
+                                          '${day8['temp']}°C',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                        Text(
+                                          '${day8['pressure']}hPa',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    Divider(
+                                      height: 20,
+                                      thickness: 1,
+                                      indent: 0,
+                                      endIndent: 0,
+                                      color: fontColor,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          '${name[7]}    ',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                        Icon(
+                                          getIcon(8),
+                                          size: 18.0,
+                                          color: iconColor,
+                                        ),
+                                        Text(
+                                          '${day9['temp']}°C',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                        Text(
+                                          '${day9['pressure']}hPa',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    Divider(
+                                      height: 20,
+                                      thickness: 1,
+                                      indent: 0,
+                                      endIndent: 0,
+                                      color: fontColor,
+                                    ),
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          '${name[8]}    ',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                        Icon(
+                                          getIcon(9),
+                                          size: 18.0,
+                                          color: iconColor,
+                                        ),
+                                        Text(
+                                          '${day10['temp']}°C',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                        Text(
+                                          '${day10['pressure']}hPa',
+                                          style: TextStyle(
+                                            fontSize: 20.0,
+                                            fontFamily: font,
+                                            color: boxfont,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+
                                   ],
                                 ),
                               ),
