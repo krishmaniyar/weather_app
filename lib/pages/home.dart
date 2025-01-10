@@ -600,20 +600,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           'Today  ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(0),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day1['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -621,7 +621,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day1['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -641,20 +641,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[0]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(1),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day2['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -662,7 +662,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day2['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -682,20 +682,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[1]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(2),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day3['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -703,7 +703,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day3['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -723,20 +723,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[2]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(3),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day4['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -744,7 +744,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day4['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -764,20 +764,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[3]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(4),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day5['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -785,7 +785,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day5['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -805,20 +805,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[4]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(5),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day6['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -826,7 +826,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day6['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -846,20 +846,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[5]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(6),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day7['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -867,7 +867,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day7['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -887,20 +887,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[6]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(7),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day8['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -908,7 +908,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day8['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -928,20 +928,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[7]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(8),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day9['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -949,7 +949,7 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day9['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -969,20 +969,20 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${name[8]}    ',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                         Icon(
                                           getIcon(9),
-                                          size: 18.0,
+                                          size: fsize,
                                           color: iconColor,
                                         ),
                                         Text(
                                           '${day10['temp']}°C',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
@@ -990,14 +990,13 @@ class _HomeState extends State<Home> {
                                         Text(
                                           '${day10['pressure']}hPa',
                                           style: TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: fsize,
                                             fontFamily: font,
                                             color: boxfont,
                                           ),
                                         ),
                                       ],
                                     ),
-
                                   ],
                                 ),
                               ),
